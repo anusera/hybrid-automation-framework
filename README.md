@@ -33,4 +33,9 @@ Application Under Test:
 * Maven Surefire plugin configured
 * Added README.md 
 * Added FrameworkRoadmap.md
+* Initialized Git repository
+* Added .gitignore
+* Staged files
+* Renamed branch from master to main
+* Made first commit
 

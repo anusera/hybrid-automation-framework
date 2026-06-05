@@ -41,8 +41,12 @@ Application Under Test:
 * Created a GitHub repo
 * Pushed the code
 * Created the config.properties file
-* Created the ConfigReader utility
-* Created a test class to verify that the ConfigReader is working
+* implemented the ConfigReader utility
+* Created ConfigReader test
 * Modified the pom.xml to have src/test/resources/testng.xml as the path for testng.xml in surefire plugin configuration
 * Converted the project to a TestNG project
+* Maven execution verified
+* Committed the code and pushed
+* implemented and tested DriverFactory
+* Committed and pushed
 

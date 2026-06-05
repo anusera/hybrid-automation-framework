@@ -51,4 +51,5 @@ Application Under Test:
 * Committed and pushed
 * Implemented and tested BaseTest
 * Committed and pushed
+* Removed temporary ConfigReader test
 

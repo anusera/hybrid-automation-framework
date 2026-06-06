@@ -26,5 +26,11 @@ public class ProductsPage {
 	public String getCartBadgeCount() {
 		return driver.findElement(cartBadge).getText();
 	}
+	
+	public void navigateToCart() {
+		driver.findElement(cartBadge).click();
+	}
+
+
 
 }

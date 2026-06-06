@@ -1,0 +1,24 @@
+package com.anu.framework.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class CartPage {
+	
+	private WebDriver driver;
+	
+	public CartPage(WebDriver driver) {
+		this.driver = driver;
+	}
+	
+	
+	private By cartItem = By.className("inventory_item_name");
+	private By checkoutButton = By.id("checkout");
+	
+	
+	public String getCartItemName() {
+		return driver.findElement(cartItem).getText();
+	}
+
+
+}

@@ -57,4 +57,6 @@ Application Under Test:
 * Created LoginTest class and added the test for successful login
 * Modified the testng.xml to include this test 
 * Maven execution verified
+* Implemented ProductsPage and ProductsTest, modified the testng.xml and verified maven execution
+* Committed and pushed
 

@@ -4,6 +4,7 @@
   <test thread-count="5" name="ConfigurationTests">
     <classes>
       <class name="com.anu.framework.tests.LoginTest"/>
+      <class name="com.anu.framework.tests.ProductsTest"/>
      </classes>
   </test> <!-- ConfigurationTests -->
 </suite> <!-- SauceDemoSuite -->

@@ -5,20 +5,20 @@
 * [x] Maven Project
 * [x] Folder Structure
 * [x] Git Initialization
-* [ ] ConfigReader
-* [ ] DriverFactory
-* [ ] BaseTest
+* [x] ConfigReader
+* [x] DriverFactory
+* [x] BaseTest
 
 ## Page Object Model
 
-* [ ] LoginPage
+* [x] LoginPage
 * [ ] ProductsPage
 * [ ] CartPage
 * [ ] CheckoutPage
 
 ## Test Cases
 
-* [ ] Successful Login
+* [x] Successful Login
 * [ ] Invalid Login
 * [ ] Add Product To Cart
 * [ ] Checkout Flow

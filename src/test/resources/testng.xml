@@ -3,8 +3,7 @@
 <suite name="SauceDemoSuite">
   <test thread-count="5" name="ConfigurationTests">
     <classes>
-      <class name="com.anu.framework.tests.ConfigReaderTest"/>
-      <class name="com.anu.framework.tests.LaunchBrowserTest"/>
-    </classes>
+      <class name="com.anu.framework.tests.LoginTest"/>
+     </classes>
   </test> <!-- ConfigurationTests -->
 </suite> <!-- SauceDemoSuite -->

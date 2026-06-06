@@ -52,4 +52,9 @@ Application Under Test:
 * Implemented and tested BaseTest
 * Committed and pushed
 * Removed temporary ConfigReader test
+* Committed and pushed
+* Created LoginPage class
+* Created LoginTest class and added the test for successful login
+* Modified the testng.xml to include this test 
+* Maven execution verified
 

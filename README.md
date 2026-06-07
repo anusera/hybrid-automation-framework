@@ -67,5 +67,6 @@ Application Under Test:
 * Committed and pushed
 * implemented CheckoutCompletePage,CheckoutCompleteTest, updated testng.xml, validated maven execution
 * Committed and pushed
+* Implemented DataProvider, validated maven execution, committed and pushed
 
 

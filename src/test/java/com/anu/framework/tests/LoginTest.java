@@ -9,10 +9,10 @@ import com.anu.framework.pages.ProductsPage;
 
 public class LoginTest extends BaseTest {
 	
-	@Test
-	public void testValidLogin() {
+	@Test(dataProvider = "loginData", dataProviderClass = com.anu.framework.dataproviders.TestDataProvider.class)
+	public void testValidLogin(String username, String password) {
 		LoginPage loginPage = new LoginPage(driver);
-		loginPage.login(configReader.getUsername(), configReader.getPassword());
+		loginPage.login(username,password);
 		ProductsPage productsPage = new ProductsPage(driver);
 		Assert.assertEquals(productsPage.getProductTitle(), "Products", "Login failed or Products page not displayed");
 		

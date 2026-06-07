@@ -12,20 +12,20 @@
 ## Page Object Model
 
 * [x] LoginPage
-* [ ] ProductsPage
-* [ ] CartPage
-* [ ] CheckoutPage
+* [x] ProductsPage
+* [x ] CartPage
+* [x] CheckoutPage
 
 ## Test Cases
 
 * [x] Successful Login
 * [ ] Invalid Login
-* [ ] Add Product To Cart
-* [ ] Checkout Flow
+* [x] Add Product To Cart
+* [x] Checkout Flow
 
 ## Data Driven Testing
 
-* [ ] DataProvider
+* [x] DataProvider
 * [ ] ExcelUtils
 * [ ] Excel Driven Tests
 

@@ -61,4 +61,6 @@ Application Under Test:
 * Committed and pushed
 * Implemented CartPage, CartTest,modified testng.xml and verified maven execution
 * Committed and pushed
+* Implemented CheckoutPage, CheckoutTest,modified testng.xml and verified maven execution
+* Committed and pushed
 

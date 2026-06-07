@@ -19,6 +19,10 @@ public class CartPage {
 	public String getCartItemName() {
 		return driver.findElement(cartItem).getText();
 	}
+	
+	public void clickCheckout() {
+		driver.findElement(checkoutButton).click();
+	}
 
 
 }

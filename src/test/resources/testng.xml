@@ -7,6 +7,7 @@
       <class name="com.anu.framework.tests.ProductsTest"/>
       <class name="com.anu.framework.tests.CartTest"/>
       <class name="com.anu.framework.tests.CheckoutTest"/>
+      <class name="com.anu.framework.tests.CheckoutOverviewTest"/>
      </classes>
   </test> <!-- ConfigurationTests -->
 </suite> <!-- SauceDemoSuite -->

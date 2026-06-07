@@ -17,9 +17,7 @@ public class CheckoutPage {
 	private By continueButton = By.id("continue");
 	
 	public void enterFirstName(String firstName) {
-		 System.out.println("Entering first name");
-		driver.findElement(firstNameField).sendKeys(firstName);
-		System.out.println(driver.findElement(firstNameField).getText());
+		driver.findElement(firstNameField).sendKeys(firstName);		
 	}	
 	
 	public void enterLastName(String lastName) {

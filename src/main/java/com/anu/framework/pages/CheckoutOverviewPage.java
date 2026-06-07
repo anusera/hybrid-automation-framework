@@ -3,11 +3,11 @@ package com.anu.framework.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class OverviewPage {
+public class CheckoutOverviewPage {
 	
 	private WebDriver driver;
 	
-	public OverviewPage(WebDriver driver) {
+	public CheckoutOverviewPage(WebDriver driver) {
 		this.driver = driver;
 	}
 	

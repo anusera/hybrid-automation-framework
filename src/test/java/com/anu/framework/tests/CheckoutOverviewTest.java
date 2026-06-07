@@ -5,14 +5,15 @@ import org.testng.annotations.Test;
 
 import com.anu.framework.base.BaseTest;
 import com.anu.framework.pages.CartPage;
+import com.anu.framework.pages.CheckoutCompletePage;
+import com.anu.framework.pages.CheckoutOverviewPage;
 import com.anu.framework.pages.CheckoutPage;
 import com.anu.framework.pages.LoginPage;
-import com.anu.framework.pages.CheckoutOverviewPage;
 import com.anu.framework.pages.ProductsPage;
 
-public class CheckoutTest extends BaseTest {
+public class CheckoutOverviewTest extends BaseTest {
 	@Test
-	public void testCheckoutProcess() {
+	public void testCheckoutOverview() {
 		LoginPage loginPage = new LoginPage(driver);
 		loginPage.login(configReader.getUsername(), configReader.getPassword());
 		ProductsPage productsPage = new ProductsPage(driver);
@@ -25,8 +26,11 @@ public class CheckoutTest extends BaseTest {
 		checkoutPage.enterLastName("Doe");
 		checkoutPage.enterPostalCode("12345");
 		checkoutPage.clickContinue();
-		CheckoutOverviewPage overviewPage = new CheckoutOverviewPage(driver);
-		Assert.assertEquals(overviewPage.getOverviewTitle(), "Checkout: Overview", "Checkout overview page not displayed");
+		CheckoutOverviewPage checkoutOverviewPage = new CheckoutOverviewPage(driver);
+		checkoutOverviewPage.clickFinish();
+		CheckoutCompletePage checkoutCompletePage = new CheckoutCompletePage(driver);
+		Assert.assertEquals(checkoutCompletePage.getCheckoutCompleteTitle(), "Checkout: Complete!", "Checkout complete page not displayed");
+		
 		
 	}
 

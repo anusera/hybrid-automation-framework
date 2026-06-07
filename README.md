@@ -63,4 +63,9 @@ Application Under Test:
 * Committed and pushed
 * Implemented CheckoutPage, CheckoutTest,modified testng.xml and verified maven execution
 * Committed and pushed
+* implemented CheckoutOverviewPage,CheckoutOverviewTest, updated testng.xml, validated maven execution
+* Committed and pushed
+* implemented CheckoutCompletePage,CheckoutCompleteTest, updated testng.xml, validated maven execution
+* Committed and pushed
+
 

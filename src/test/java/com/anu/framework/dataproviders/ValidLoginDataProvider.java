@@ -6,7 +6,7 @@ import org.testng.annotations.DataProvider;
 
 import com.anu.framework.utilities.ExcelUtility;
 
-public class TestDataProvider {
+public class ValidLoginDataProvider {
 	
 	@DataProvider(name = "loginData")
 	public Object[][] getLoginData() throws IOException {

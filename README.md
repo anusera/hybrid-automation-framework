@@ -42,7 +42,7 @@ Application Under Test:
 * Pushed the code
 * Created the config.properties file
 * implemented the ConfigReader utility
-* Created ConfigReader test
+* Created ConfigReader testhi
 * Modified the pom.xml to have src/test/resources/testng.xml as the path for testng.xml in surefire plugin configuration
 * Converted the project to a TestNG project
 * Maven execution verified
@@ -68,5 +68,7 @@ Application Under Test:
 * implemented CheckoutCompletePage,CheckoutCompleteTest, updated testng.xml, validated maven execution
 * Committed and pushed
 * Implemented DataProvider, validated maven execution, committed and pushed
+* Implemented DataProvider using excel, validated maven execution, committed and pushed
+* Implemented another DataPovider for invalid login using JSON file, added test for invalid login and validated maven execution, committed and pushed.
 
 

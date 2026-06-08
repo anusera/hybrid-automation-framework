@@ -19,6 +19,7 @@ public class LoginPage{
 	private By usernameField = By.id("user-name");
 	private By passwordField = By.id("password");
 	private By loginButton = By.id("login-button");
+	private By errorMessage = By.cssSelector("[data-test='error']");
 	
 	
 	//Actions (Page methods)
@@ -39,6 +40,10 @@ public class LoginPage{
 		enterUsername(username);
 		enterPassword(password);
 		clickLogin();
+	}
+	
+	public boolean isErrorMessageDisplayed() {
+		return driver.findElement(errorMessage).isDisplayed();
 	}
 	
 }

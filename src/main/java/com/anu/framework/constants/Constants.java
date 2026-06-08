@@ -8,5 +8,10 @@ public class Constants {
 			+ File.separator + "main" + File.separator + "resources" + File.separator + "config.properties";
 
 	public static final String TESTDATA_FILE_PATH = System.getProperty("user.dir") + File.separator + "src"
-			+ File.separator + "test" + File.separator + "resources" + File.separator + "testdata" + File.separator + "TestData.xlsx";
+			+ File.separator + "test" + File.separator + "resources" + File.separator + "testdata" + File.separator
+			+ "TestData.xlsx";
+	
+	public static final String JSON_TESTDATA_FILE_PATH = System.getProperty("user.dir") + File.separator + "src"
+			+ File.separator + "test" + File.separator + "resources" + File.separator + "testdata" + File.separator
+			+ "LoginData.json";
 }

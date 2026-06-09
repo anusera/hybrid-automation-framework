@@ -35,6 +35,7 @@
 
 * [ ] Extent Reports
 * [ ] Screenshots on Failure
+* [x] log4j2
 
 ## CI/CD
 

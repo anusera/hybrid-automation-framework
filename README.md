@@ -71,5 +71,7 @@ Application Under Test:
 * Implemented DataProvider using excel, validated maven execution, committed and pushed
 * Implemented another DataPovider for invalid login using JSON file, added test for invalid login and validated maven execution, committed and pushed.
 * Implemented FakerUtility validated maven execution, committed and pushed
+* Implemented log4j2 in LoginTest, validated maven run, committed and pushed
+* Implemented log4j2 in BaseTest and DriverFactoy,  validated maven run, committed and pushed
 
 

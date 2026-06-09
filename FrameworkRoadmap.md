@@ -19,15 +19,17 @@
 ## Test Cases
 
 * [x] Successful Login
-* [ ] Invalid Login
+* [x] Invalid Login
 * [x] Add Product To Cart
 * [x] Checkout Flow
 
 ## Data Driven Testing
 
 * [x] DataProvider
-* [ ] ExcelUtils
-* [ ] Excel Driven Tests
+* [x] ExcelUtils
+* [x] Excel Driven Tests
+* [x] JsonUtility
+* [x] Faker
 
 ## Reporting
 
@@ -36,7 +38,7 @@
 
 ## CI/CD
 
-* [ ] GitHub Integration
+* [x] GitHub Integration
 * [ ] Jenkins Pipeline
 
 ## Database Validation

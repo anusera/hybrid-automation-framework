@@ -70,5 +70,6 @@ Application Under Test:
 * Implemented DataProvider, validated maven execution, committed and pushed
 * Implemented DataProvider using excel, validated maven execution, committed and pushed
 * Implemented another DataPovider for invalid login using JSON file, added test for invalid login and validated maven execution, committed and pushed.
+* Implemented FakerUtility validated maven execution, committed and pushed
 
 

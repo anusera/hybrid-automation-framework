@@ -3,12 +3,12 @@
 <suite name="SauceDemoSuite">
   <test thread-count="5" name="ConfigurationTests">
     <classes>
-      <class name="com.anu.framework.tests.LoginTest"/>
-     <!-- <class name="com.anu.framework.tests.ProductsTest"/>
-      <class name="com.anu.framework.tests.CartTest"/>
+      <!-- <class name="com.anu.framework.tests.LoginTest"/>
+      <class name="com.anu.framework.tests.ProductsTest"/>
+      <class name="com.anu.framework.tests.CartTest"/> -->
       <class name="com.anu.framework.tests.CheckoutTest"/>
       <class name="com.anu.framework.tests.CheckoutOverviewTest"/>
-      <class name="com.anu.framework.tests.CheckoutCompleteTest"/>  -->
+      <class name="com.anu.framework.tests.CheckoutCompleteTest"/>  
      </classes>
   </test> <!-- ConfigurationTests -->
 </suite> <!-- SauceDemoSuite -->

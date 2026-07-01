@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="SauceDemoSuite">
+
+<listeners>
+    <listener class-name="com.anu.framework.listeners.TestListeners"/>
+</listeners>
+
   <test thread-count="5" name="ConfigurationTests">
     <classes>
-      <class name="com.anu.framework.tests.LoginTest"/>
-      <!--<class name="com.anu.framework.tests.ProductsTest"/>
-      <class name="com.anu.framework.tests.CartTest"/>
+     <!-- <class name="com.anu.framework.tests.LoginTest"/> -->
+      <class name="com.anu.framework.tests.ProductsTest"/>
+      <!--<class name="com.anu.framework.tests.CartTest"/>
       <class name="com.anu.framework.tests.CheckoutTest"/>
       <class name="com.anu.framework.tests.CheckoutOverviewTest"/>
       <class name="com.anu.framework.tests.CheckoutCompleteTest"/>   -->

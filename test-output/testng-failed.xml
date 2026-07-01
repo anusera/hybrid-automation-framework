@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.anu.framework.tests.CheckoutTest">
+      <class name="com.anu.framework.tests.ProductsTest">
         <methods>
-          <include name="testCheckoutProcess"/>
           <include name="tearDown"/>
+          <include name="testAddToCart"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.anu.framework.tests.CheckoutTest -->
+      </class> <!-- com.anu.framework.tests.ProductsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

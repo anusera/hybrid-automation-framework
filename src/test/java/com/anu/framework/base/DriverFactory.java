@@ -12,7 +12,7 @@ import com.anu.framework.tests.LoginTest;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DriverFactory {
-	public static final Logger logger = LogManager.getLogger(LoginTest.class);
+	public static final Logger logger = LogManager.getLogger(DriverFactory.class);
 	public static WebDriver initializeDriver(String browser) {
 		WebDriver driver = null;
 		if (browser.equalsIgnoreCase("chrome")) {
@@ -21,6 +21,7 @@ public class DriverFactory {
 			options.addArguments("--incognito");
 			logger.info("Launching Chrome browser in incognito mode");
 			driver = new ChromeDriver(options);
+			driver.manage().window().maximize();
 			
 		}
 		else if (browser.equalsIgnoreCase("firefox")) {

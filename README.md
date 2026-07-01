@@ -73,5 +73,9 @@ Application Under Test:
 * Implemented FakerUtility validated maven execution, committed and pushed
 * Implemented log4j2 in LoginTest, validated maven run, committed and pushed
 * Implemented log4j2 in BaseTest and DriverFactoy,  validated maven run, committed and pushed
+* Created screenshot utility
+* Added a getter for driver in BaseTest
+* Implemented ITestListener in TestListeners class and implemented onTestFailure functionality to call the screenshot utility on test failure
+
 
 

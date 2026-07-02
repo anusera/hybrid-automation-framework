@@ -20,7 +20,13 @@ public class ScreenshotUtility {
 		File source=ts.getScreenshotAs(OutputType.FILE);
 		//getScreenshotAs(OutputType.FILE) returns a temporary screenshot file.
 		
-		String destination=System.getProperty("user.dir")+"/Screenshots/"+testName+"+"+System.currentTimeMillis()+".png";
+		File folder = new File(System.getProperty("user.dir") + "/Screenshots");
+
+		if (!folder.exists()) {
+		    folder.mkdirs();
+		}
+		
+		String destination = System.getProperty("user.dir")+ "/Screenshots/"+ testName + "_" + System.currentTimeMillis()+ ".png";
 		//Create destination path
 		
 			File destinationFile = new File(destination);

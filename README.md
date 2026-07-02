@@ -76,6 +76,7 @@ Application Under Test:
 * Created screenshot utility
 * Added a getter for driver in BaseTest
 * Implemented ITestListener in TestListeners class and implemented onTestFailure functionality to call the screenshot utility on test failure
-
+* validated maven execution, committed and pushed
+* Implemented ExtentReports, validated maven run, committed and pushed
 
 

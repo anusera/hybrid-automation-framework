@@ -15,7 +15,7 @@ public class BaseTest {
 	public WebDriver getDriver() {
 	    return driver;
 	}
-	@BeforeMethod
+	@BeforeMethod(alwaysRun = true)
 	public void setUp() {
 		logger.info("Setting up the test environment");
 		configReader = new ConfigReader();
@@ -25,7 +25,7 @@ public class BaseTest {
 		System.out.println("Thread ID : "+ Thread.currentThread().getId());
 	}
 	
-	@AfterMethod
+	@AfterMethod(alwaysRun = true)
 	public void tearDown() {
 		System.out.println("Closing Thread : " + Thread.currentThread().getId());
 		if (DriverFactory.getDriver() != null) {

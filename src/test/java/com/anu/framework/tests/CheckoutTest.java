@@ -12,7 +12,7 @@ import com.anu.framework.pages.ProductsPage;
 import com.anu.framework.utilities.FakerUtility;
 
 public class CheckoutTest extends BaseTest {
-	@Test
+	@Test(groups = {"sanity", "regression"})
 	public void testCheckoutProcess() {
 		LoginPage loginPage = new LoginPage(driver);
 		loginPage.login(configReader.getUsername(), configReader.getPassword());

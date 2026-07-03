@@ -10,7 +10,7 @@ import com.anu.framework.pages.ProductsPage;
 
 public class CartTest extends BaseTest {
 
-	@Test
+	@Test(groups = {"smoke", "regression"})
 	public void testCartFunctionality() {
 		LoginPage loginPage = new LoginPage(driver);
 		loginPage.login(configReader.getUsername(), configReader.getPassword());

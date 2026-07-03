@@ -78,5 +78,6 @@ Application Under Test:
 * Implemented ITestListener in TestListeners class and implemented onTestFailure functionality to call the screenshot utility on test failure
 * validated maven execution, committed and pushed
 * Implemented ExtentReports, validated maven run, committed and pushed
+* Implemented parallel testing with ThreadLocal WebDriver and ExtentTest
 
 

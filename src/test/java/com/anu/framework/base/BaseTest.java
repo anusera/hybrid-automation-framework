@@ -19,14 +19,18 @@ public class BaseTest {
 	public void setUp() {
 		logger.info("Setting up the test environment");
 		configReader = new ConfigReader();
-		driver =DriverFactory.initializeDriver(configReader.getBrowser());
+		DriverFactory.initializeDriver(configReader.getBrowser());
+		driver = DriverFactory.getDriver();
 		driver.get(configReader.getUrl());
+		System.out.println("Thread ID : "+ Thread.currentThread().getId());
 	}
 	
 	@AfterMethod
 	public void tearDown() {
-		if (driver != null) {
-		driver.quit();
+		System.out.println("Closing Thread : " + Thread.currentThread().getId());
+		if (DriverFactory.getDriver() != null) {
+			DriverFactory.getDriver().quit();
+			DriverFactory.unLoad();
 	}
 	}
 

@@ -53,14 +53,25 @@ public class TestListeners implements ITestListener {
 
 	        e.printStackTrace();
 	    }
-	    logger.error("Test Failed : {}", result.getName());
+	    finally {
+	    	logger.error("Test Failed : {}", result.getName());
+	    	ExtentTestManager.unload();
+	    }
 	    
+	    
+	}
+	
+	@Override
+	public void onTestSkipped(ITestResult result) {
+	    ExtentTestManager.getExtentTest().skip("Test Skipped");
+	    ExtentTestManager.unload();
 	}
 	
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		ExtentTestManager.getExtentTest().pass("Test Passed");
 		logger.info("Test Passed : {}", result.getName());
+		ExtentTestManager.unload();
 	}
 	
 	@Override

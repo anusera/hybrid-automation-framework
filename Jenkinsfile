@@ -9,10 +9,14 @@ pipeline {
     parameters {
         choice(
             name: 'TEST_SUITE',
-            choices: ['smoke', 'sanity', 'regression'],
+            choices: ['regression', 'smoke', 'sanity'],
             description: 'Select the test suite to execute'
         )
     }
+    
+    triggers {
+    cron('0 23 * * *')
+}
 
     stages {
 

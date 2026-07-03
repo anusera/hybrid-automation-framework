@@ -79,5 +79,6 @@ Application Under Test:
 * validated maven execution, committed and pushed
 * Implemented ExtentReports, validated maven run, committed and pushed
 * Implemented parallel testing with ThreadLocal WebDriver and ExtentTest
+* Assigned smoke, sanity and regression groups
 
 

@@ -80,5 +80,6 @@ Application Under Test:
 * Implemented ExtentReports, validated maven run, committed and pushed
 * Implemented parallel testing with ThreadLocal WebDriver and ExtentTest
 * Assigned smoke, sanity and regression groups
+* Added Jenkinsfile
 
 
